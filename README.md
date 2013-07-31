@@ -2,6 +2,9 @@
 
 Copy compiled versions of Node.js from nodejs.org to S3.
 
+**Note: This was a proof-of-concept app. We're currently using
+[s3pository](https://github.com/heroku/s3pository) instead.**
+
 ## How it works
 
 1. Parse Nodejs.org's [list of versions](http://nodejs.org/dist/npm-versions.txt)
